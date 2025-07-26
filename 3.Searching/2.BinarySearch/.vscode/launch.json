@@ -1,0 +1,27 @@
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "name": "Debug C++",
+//       "type": "cppdbg",
+//       "request": "launch",
+//       "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+//       "args": [],
+//       "stopAtEntry": false,
+//       "cwd": "${fileDirname}",
+//       "environment": [],
+//       "externalConsole": false, // Run in VS Code terminal
+//       "console":"integratedTerminal",
+//       "MIMode": "gdb",
+//       "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+//       "setupCommands": [
+//         {
+//           "description": "Enable pretty-printing",
+//           "text": "-enable-pretty-printing",
+//           "ignoreFailures": true
+//         }
+//       ],
+//       "preLaunchTask": "C/C++: g++.exe build active file"
+//     }
+//   ]
+// }
